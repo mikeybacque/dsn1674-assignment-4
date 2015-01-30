@@ -1,0 +1,124 @@
+html {
+  background-color: #ddd
+}
+
+h1 {
+  font-family: 'Bevan', cursive;
+  font-weight: normal;
+  font-size: 2rem;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1;
+  color: #555
+}
+
+ol{
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: .9rem;
+  list-style-type: none;
+  padding: 0;
+  line-height: 1.5
+}
+
+a {
+  color: maroon;
+}
+
+a:hover {
+  color: red;
+}
+
+h2 {
+  font-family: 'Bevan', cursive;
+  font-weight: normal;
+  font-size: 1.5rem;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.5;
+  color: #555
+}
+
+h3 {
+  font-family: 'Bevan', cursive;
+  font-weight: normal;
+  font-size: 1.2rem;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.5;
+  color: #555
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5
+}
+
+b {
+  color: #777;
+  font-weight: normal;
+}
+
+blockquote {
+  font-family: georgia, cursive;
+  font-style: italic;
+  font-size: 1.3rem;
+  line-height: 1;
+  text-align: left;
+}
+
+.quote {
+  color: #79756f;
+  font-size: 2rem;
+}
+
+.cite {
+  font-family: georgia, cursive;
+  font-style: italic;
+  color: #79756f;
+  font-size: .75rem;
+  text-align: right;
+}
+
+.small-text {
+  font-size: .9rem
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.terrestrial-planets {
+  list-style-type: lower-roman;
+  padding-left: 50px;
+  line-height: 1.5
+}
+
+figcaption {
+  font-family: Arial, sans-serif;
+  font-size: .8rem;
+  font-style: italic;
+  line-height: 1.5
+}
+
+dl {
+  font-family: Arial, sans-serif;
+  font-size: .9rem;
+  line-height: 1.5
+}
+
+dt {
+  font-weight: bold;
+}
+
+.srcs {
+  list-style-type: circle;
+  padding-left: 40px;
+}
