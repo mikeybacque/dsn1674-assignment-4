@@ -2,6 +2,15 @@ html {
   background-color: #ddd
 }
 
+header {
+  background-color: #555;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
 h1 {
   font-family: 'Bevan', cursive;
   font-weight: normal;
@@ -9,7 +18,17 @@ h1 {
   font-style: normal;
   text-decoration: none;
   line-height: 1;
-  color: #555
+  color: #fff;
+  padding: .75em 0em .25em 0em;
+  margin: 0;
+}
+
+nav {
+  padding: 0em 1em .75em 1em;
+}
+
+nav li {
+  display: inline-block;
 }
 
 ol{
@@ -18,15 +37,29 @@ ol{
   font-size: .9rem;
   list-style-type: none;
   padding: 0;
-  line-height: 1.5
+  line-height: 1.5;
+  margin: 0;
 }
 
-a {
-  color: maroon;
+nav li {
+  display: inline-block;
+  margin: .5em 0em .5em 0em;
 }
 
-a:hover {
+nav a {
+  color: #fff;
+  text-decoration: none;
+  background-color: maroon;
+  padding: .5em;
+  border-radius: 4px;
+}
+
+nav a:hover {
   color: red;
+}
+
+main {
+  padding: 0em .5em .5em .5em;
 }
 
 h2 {
@@ -36,7 +69,8 @@ h2 {
   font-style: normal;
   text-decoration: none;
   line-height: 1.5;
-  color: #555
+  color: #555;
+  margin: 0.75em 0em 0.75em 0em;
 }
 
 h3 {
@@ -46,7 +80,7 @@ h3 {
   font-style: normal;
   text-decoration: none;
   line-height: 1.5;
-  color: #555
+  color: #555;
 }
 
 p {
@@ -65,13 +99,14 @@ blockquote {
   font-family: georgia, cursive;
   font-style: italic;
   font-size: 1.3rem;
-  line-height: 1;
+  line-height: 1.5;
   text-align: left;
 }
 
 .quote {
   color: #79756f;
   font-size: 2rem;
+  line-height: .1;
 }
 
 .cite {
@@ -101,6 +136,19 @@ strong {
   line-height: 1.5
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  border: 2px solid;
+  border-color: #aaa;
+  border-radius: .5em;
+  padding: 1em 1em .5em 1em;
+  margin: 0;
+  text-align: center;
+}
+
 figcaption {
   font-family: Arial, sans-serif;
   font-size: .8rem;
@@ -111,14 +159,42 @@ figcaption {
 dl {
   font-family: Arial, sans-serif;
   font-size: .9rem;
-  line-height: 1.5
+  line-height: 1.5;
+  margin-bottom: 0;
 }
 
 dt {
   font-weight: bold;
 }
 
+dd {
+  padding-bottom: 1em;
+}
+
+.footer {
+  background-color: #555;
+  padding: .5em
+}
+
+.sources {
+  margin: 0;
+  color: #fff;
+}
+
 .srcs {
   list-style-type: circle;
   padding-left: 40px;
+}
+
+ol cite {
+  font-style: normal;
+}
+
+footer a {
+  color: maroon;
+  font-size: 1.2em;
+}
+
+.mean-radius {
+  padding-bottom: 0;
 }
